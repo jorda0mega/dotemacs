@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ eval-buffer
  ns-toggle-fullscreen
+ facemenu-update
  el-get-install
  load-theme
  el-get-remove
- eval-buffer
  ido-mode
- enable-theme
 )
 
 ;; ----- smex-data -----
@@ -15,13 +15,14 @@
  (enable-theme . 10)
  (load-theme . 5)
  (customize-themes . 4)
- (eval-buffer . 35)
+ (eval-buffer . 40)
  (debug-on-entry . 1)
  (toggle-debug-on-error . 2)
  (toggle-debug-on-quit . 1)
- (el-get-install . 18)
+ (el-get-install . 19)
  (package-install . 1)
  (el-get-remove . 3)
- (ns-toggle-fullscreen . 16)
+ (ns-toggle-fullscreen . 19)
  (ido-mode . 2)
+ (facemenu-update . 1)
 )
